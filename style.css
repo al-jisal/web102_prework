@@ -24,6 +24,16 @@ body {
     align-items: center;
 }
 
+@media (max-width: 600px) {
+    .stats-container {
+        flex-wrap: wrap;
+    }
+
+    h2, p {
+        text-align: center;
+    }
+}
+
 .stats-container :hover {
     cursor: pointer;
     box-shadow: 0 0 30px lightblue;
